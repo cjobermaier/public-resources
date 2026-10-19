@@ -79,7 +79,7 @@ Assign one status to every link:
 
 A link can have two statuses. For example, a link can be `OK` and `VAGUE TEXT`.
 
-When you mark a link `OUTDATED`, use the `fetch-url` skill to read the
+When you mark a link `OUTDATED`, use the WebFetch tool to read the
 final page and quote the sentence that shows it is legacy or archived.
 
 ### 6. Find replacements
@@ -91,7 +91,7 @@ page you actually loaded:
 - `ANCHOR MISSING`: suggest the closest id from the target page's id list.
 - `BROKEN` or `OUTDATED`: find the current page that covers the same topic.
   Good sources are links on the legacy page that point to the new docs, the
-  site's navigation, or the site's sitemap. Use the `fetch-url` skill to read
+  site's navigation, or the site's sitemap. Use the WebFetch tool to read
   the candidate page and confirm it covers what the link text promises.
 - `VAGUE TEXT`: suggest link text that names the target page, based on the
   target page's title. Show the full rewritten sentence so it still reads
